@@ -1,0 +1,23 @@
+name:                haxpr
+version:             0.1.0.0
+
+-- A short (one-line) description of the package.
+synopsis:            A mathematical expression parser
+-- description:         
+homepage:            https://github.com/Agrosis/haxpr
+license:             MIT
+license-file:        LICENSE
+author:              Muhtasim Ahsan
+maintainer:          agro@jantox.com
+category:            Language
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+
+executable haxpr
+  main-is:             Main.hs
+  build-depends:       base >=4.6 && <4.7
+  hs-source-dirs:      src
+  default-language:    Haskell2010
+  
